@@ -99,7 +99,7 @@ better would be to figure out how to make this collapse without any media querie
 	color: var(--red);
 	font-size: 1.75vw;
 	text-transform: uppercase;
-	margin: 10px 0;
+	margin: 25px 0;
 }
 
 .block__boxdeets {
