@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:800&display=swap');
 
 :root {
-	--marigold: #f2c407;
+	--marigold: #f2c707;
 	--red: #FF4500;
 }
 
@@ -22,7 +22,7 @@ body {
 }
 
 .img__kandinsky {
-	background: var(--marigold) url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/847807/Vassily-Kandinsky.jpeg) center no-repeat content-box;
+	background: var(--marigold) url(https://pbs.twimg.com/profile_images/1137996704521711620/X1ePDVCf_400x400.jpg) center no-repeat content-box;
 	background-blend-mode: multiply;
 	margin: 0;
 	padding: 0;
@@ -91,7 +91,7 @@ better would be to figure out how to make this collapse without any media querie
 
 .type__birthday__year {
 	color: var(--red);
-	font-size: 8vw;
+	font-size: 3vw;
 	margin: 0;
 }
 
