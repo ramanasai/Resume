@@ -67,7 +67,7 @@ better would be to figure out how to make this collapse without any media querie
 	}
 	
 	.Thought{
-		font-family: 'Lucida Sans Unicode';
+		font-family: 'Times New Roman', Times, serif;
 		color: orangered;
 		font-size: 3vw;
 		align-content: center;
