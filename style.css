@@ -8,15 +8,12 @@
 }
 
 body {
-	
 	font-family: Montserrat, Helvetica, Arial, sans-serif;
-	padding: 5vmax;
+	padding: 1vmax;
 	overflow-x: hidden;
-
-	background: linear-gradient(-25deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-	
-	animation: gradient 10s ease infinite;
-	height:200vh;
+	background: linear-gradient(25deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	animation: gradient 1s ease infinite;
+	height:40vh;
 }
 
 
@@ -268,6 +265,14 @@ better would be to figure out how to make this collapse without any media querie
 		display: flex;
 		align-items: center;
 	}
+
+	body {
+		font-family: Montserrat, Helvetica, Arial, sans-serif;
+		padding: 1vmax;
+		background: linear-gradient(-25deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+		animation: gradient 10s ease infinite;
+		height:280vh;
+	}
 	
 }
 
@@ -312,6 +317,14 @@ better would be to figure out how to make this collapse without any media querie
 		display: flex;
 		align-items: center;
 	}
+
+	body {
+		font-family: Montserrat, Helvetica, Arial, sans-serif;
+		padding: 1vmax;
+		background: linear-gradient(-25deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+		animation: gradient 10s ease infinite;
+		height:280vh;
+	}
 }
 
 @media (min-width: 800px) {
@@ -343,12 +356,25 @@ better would be to figure out how to make this collapse without any media querie
 	font-size: 1vw;
 	}
 
-	body {
+	body {		
 		font-family: Montserrat, Helvetica, Arial, sans-serif;
-		padding: 4vmax;
-		background: linear-gradient(-25deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+		padding: 5vmax;
+		margin: 5px;
+		background: linear-gradient(25deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 		animation: gradient 10s ease infinite;
-		height:230vh;
+		height:280vh;
+	}
+}
+
+@media (min-width: 1000px) {
+	body {		
+		font-family: Montserrat, Helvetica, Arial, sans-serif;
+		padding: 5vmax;
+		margin: 1px;
+		background: linear-gradient(25deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+		animation: gradient 10s ease infinite;
+		height:220vh;
+		width: 170vh;
 	}
 }
 
